@@ -179,9 +179,10 @@ html[data-theme="7"] .hero-proof strong { color:var(--ink); }
 html[data-theme="7"] .hero-proof span { color:var(--muted); }
 html[data-theme="7"] .button-ghost { color:var(--ink); border-color:var(--line); }
 html[data-theme="7"] .site-header { color:var(--ink); width:48%; border-color:var(--line); }
-html[data-theme="7"] .brand img { filter:none; }
+html[data-theme="7"] .brand img { filter:brightness(0) saturate(100%); }
 html[data-theme="7"] .desktop-nav { display:none; }
 html[data-theme="7"] .header-cta { border-color:var(--line); }
+html[data-theme="7"] .menu-toggle { color:var(--ink); }
 html[data-theme="7"] .coordinates { display:none; }
 
 @media (max-width: 900px) {
