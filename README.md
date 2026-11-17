@@ -1,29 +1,20 @@
-# Solo Topografia — protótipos da página inicial
+# Solo Topografia — página institucional
 
-Protótipo estático responsivo com sete direções visuais selecionáveis pela barra inferior.
+Protótipo de página inicial desenvolvido para a Solo Topografia e Georreferenciamento.
 
-## Arquivos
+## Tecnologias
 
-- `dist/index.html`: estrutura da página
-- `dist/styles.css`: estilos, responsividade e sete temas
-- `dist/app.js`: seletor de versões e menu móvel
-- `dist/assets/`: ativos locais, sem dependência do WordPress
-- `ANALISE-SITE-ATUAL.md`: diagnóstico das imagens quebradas
+- HTML semântico
+- CSS responsivo
+- JavaScript
+- GitHub Pages
 
-## Rodar localmente
+## Executar localmente
 
-```powershell
-python -m http.server 4173 --directory dist
+Sirva a pasta `dist` com um servidor HTTP local. Por exemplo:
+
+```bash
+python -m http.server 4187 --directory dist
 ```
 
-Abra `http://localhost:4173`.
-
-## Versões
-
-1. Executivo
-2. Engenharia escura
-3. Editorial premium
-4. Cartográfico
-5. Industrial
-6. Território
-7. Minimalista institucional
+Depois acesse `http://localhost:4187/`.
