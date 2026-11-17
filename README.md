@@ -11,10 +11,10 @@ Protótipo de página inicial desenvolvido para a Solo Topografia e Georreferenc
 
 ## Executar localmente
 
-Sirva a pasta `dist` com um servidor HTTP local. Por exemplo:
+Sirva a pasta `docs` com um servidor HTTP local. Por exemplo:
 
 ```bash
-python -m http.server 4187 --directory dist
+python -m http.server 4187 --directory docs
 ```
 
 Depois acesse `http://localhost:4187/`.
